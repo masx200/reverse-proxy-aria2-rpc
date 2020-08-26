@@ -1,0 +1,8 @@
+{
+	debug
+	admin off
+}
+
+http://localhost:6800 {
+	reverse_proxy http://localhost:6801 http://localhost:6802 http://localhost:6803 http://localhost:6804
+}
