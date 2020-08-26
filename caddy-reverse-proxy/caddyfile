@@ -1,8 +1,7 @@
 {
 	debug
-	admin off
 }
 
 http://localhost:6800 {
-	reverse_proxy http://localhost:6801 http://localhost:6802 http://localhost:6803 http://localhost:6804
+	reverse_proxy http://localhost:6801 http://localhost:6802 http://localhost:6803 http://localhost:6804 http://localhost:6805 http://localhost:6806 http://localhost:6807 http://localhost:6808
 }
