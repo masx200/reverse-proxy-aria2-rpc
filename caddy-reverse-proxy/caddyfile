@@ -1,5 +1,6 @@
 {
 	debug
+	auto_https off
 }
 
 http://localhost:6800 :6800 {
