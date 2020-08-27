@@ -37,4 +37,6 @@ http://localhost:6808
 
 运行 各个文件夹下的 start.cmd 即可
 
-然后访问 由caddy server 提供的网关 http://localhost:6800
+然后访问 由caddy server 提供的网关 
+
+http://localhost:6800
