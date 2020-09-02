@@ -1,1 +1,1 @@
-caddy fmt --overwrite
+caddy fmt --overwrite caddyfile
