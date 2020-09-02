@@ -4,18 +4,18 @@
 }
 
 :6800 {
-        encode gzip
+	encode gzip
 	reverse_proxy {
-	to http://localhost:6801 
-	to http://localhost:6802
-	to http://localhost:6803
-	to http://localhost:6804
-	to http://localhost:6805 
-	to http://localhost:6806
-	to http://localhost:6807
-	to http://localhost:6808 
-	
-	lb_policy least_conn
-	lb_try_duration 10s
+		to http://localhost:6801
+		to http://localhost:6802
+		to http://localhost:6803
+		to http://localhost:6804
+		to http://localhost:6805
+		to http://localhost:6806
+		to http://localhost:6807
+		to http://localhost:6808
+
+		lb_policy least_conn
+		lb_try_duration 10s
 	}
 }
