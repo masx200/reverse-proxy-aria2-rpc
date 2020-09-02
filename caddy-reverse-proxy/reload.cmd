@@ -1,1 +1,1 @@
-caddy reload
+caddy reload --config caddyfile --adapter caddyfile
